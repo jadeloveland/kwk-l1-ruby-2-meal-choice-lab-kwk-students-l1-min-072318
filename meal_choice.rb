@@ -6,7 +6,7 @@ def breackfast(breakfast_food = "frosted flakes")
   puts "Morning is the best time for #{breakfast_food}"
 end
 
-def ("Swedish fish")
+def lunch("")
 
 # call your methods here
 
