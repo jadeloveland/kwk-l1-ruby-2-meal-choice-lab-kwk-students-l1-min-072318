@@ -3,17 +3,19 @@ def snacks(food="Cheetos")
 end
 
 def breakfast(breakfast_food = "frosted flakes")
-  puts "Morning is the best time for #{breakfast_food}"
+ "Morning is the best time for #{breakfast_food}"
 end
 
 def lunch(lunch_food = "grilled cheese")
-  puts "Lunch isn't complete without #{lunch_food}"
+  "Lunch isn't complete without #{lunch_food}"
 end
 
 def dinner(dinner_food = "salmon")
-  puts "Dinner is the best with #{dinner_food}"
+  "Dinner is the best with #{dinner_food}"
 end
 
-breakfast("pancakes").downcase
-lunch("peanut butter").downcase
-dinner("broccoli").downcase
+puts breakfast("pancakes").downcase
+puts lunch("peanut butter").downcase
+puts dinner("broccoli").downcase
+
+breakfast
