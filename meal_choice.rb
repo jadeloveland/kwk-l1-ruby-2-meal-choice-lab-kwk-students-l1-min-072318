@@ -18,4 +18,6 @@ puts breakfast("pancakes").downcase
 puts lunch("peanut butter").downcase
 puts dinner("broccoli").downcase
 
-breakfast
+puts breakfast
+puts lunch
+puts dinner
