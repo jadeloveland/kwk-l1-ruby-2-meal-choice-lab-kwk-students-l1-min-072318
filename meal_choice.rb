@@ -12,6 +12,7 @@ end
 
 def dinner(dinner_food = "salmon")
   puts "Dinner is the best with #{dinner_food}"
+end
 
 snacks
 breakfast
