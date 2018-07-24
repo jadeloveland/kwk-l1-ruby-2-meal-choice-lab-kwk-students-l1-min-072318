@@ -2,15 +2,13 @@ def snacks(food="Cheetos")
   "Any time, is the right time for #{food}!"
 end
 
-def breackfast(breakfast_food = "frosted flakes")
+def breakfast(breakfast_food = "frosted flakes")
   puts "Morning is the best time for #{breakfast_food}"
 end
 
-def lunch("")
+def lunch(lunch_food = "grilled cheese")
+  puts "Lunch isn't complete without #{lunch_food}"
+end
 
-# call your methods here
-
-
-# Call your methods without any arguments here
-puts snacks
-## In our snacks method, the default choice is "Cheetos" Calling snacks like this without specifying a choice will return "Any time, is the right time for Cheetos!"
+def dinner(dinner_food = "salmon")
+  puts "Dinner is the best with #{dinner_food}"
