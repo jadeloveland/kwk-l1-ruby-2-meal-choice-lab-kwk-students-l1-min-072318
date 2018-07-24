@@ -6,8 +6,7 @@ def breackfast(breakfast_food = "frosted flakes")
   puts "Morning is the best time for #{breakfast_food}"
 end
 
-# Call the methods with puts and your own arguments here. Like this:
-puts ("Swedish fish")
+def ("Swedish fish")
 
 # call your methods here
 
